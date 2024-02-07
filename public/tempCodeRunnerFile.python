@@ -1,0 +1,12 @@
+rd =[-1,5,-2,1]
+dp=[["total" "from"] for _ in range(4)]
+for i in range(len(rd)):
+  if i==0:
+    dp[0] = [rd[0], 0]
+  elif dp[i-1][1]>0:
+    dp[i]=[rd[i]+dp[i-1][0],dp[i-1][1]]
+  else:
+    dp[i]=[rd[i],i]
+rs=max(dp)
+
+print(rs[0])

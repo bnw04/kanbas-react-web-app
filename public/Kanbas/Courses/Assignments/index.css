@@ -1,0 +1,56 @@
+.list-group {
+  border-radius: 0%!important;
+  border: none!important;
+  margin: 0px!important;
+  padding: 0px!important;
+}
+
+.list-group-item {
+  border-radius: 0%!important;
+  border: none!important;
+  margin: 0px!important;
+  padding: 0px!important;
+}
+
+.wd-assign > li {
+  background-color: lightgray;
+  border: 1px solid gray !important;
+  border-left: none !important;
+  margin-top: 15px;
+}
+
+.wd-assign > li > div {
+  padding: 15px!important;
+  border-left: 1px solid gray !important;
+}
+
+.wd-assign > li > ul > li {
+  padding: 15px!important;
+  border-top: 1px solid gray !important;
+  border-left: 4px solid green!important;
+}
+
+.wd-assign > li > ul > li > a {
+  text-decoration: none;
+}
+
+.wd-assign > li {
+  margin-bottom: 20px;
+}
+
+.wd-assign-link {
+  font-size: small;
+  color: black;
+}
+
+.wd-assign-link a {
+  font-size: medium;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+.wd-assign-button-i {
+  text-decoration: none!important;
+  color:black;
+}

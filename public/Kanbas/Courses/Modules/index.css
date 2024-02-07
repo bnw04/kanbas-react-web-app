@@ -1,0 +1,88 @@
+.wd-modules,
+.wd-modules * {
+  border-radius: 0%;
+  border: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.wd-modules {
+  margin: 5px;
+}
+
+.wd-modules > li {
+  background-color: lightgray;
+  border: 1px solid gray !important;
+  border-left: none !important;
+  margin-top: 15px;
+}
+
+.wd-modules > li > div {
+  padding: 8px;
+  border-left: 1px solid gray !important;
+}
+
+.wd-modules > li > ul > li {
+  padding: 8px;
+  border-top: 1px solid gray !important;
+  border-left: 2px solid green;
+}
+
+.wd-modules > li {
+  margin-bottom: 20px;
+}
+
+.straight-button button{
+  border-radius: 0;
+  text-align: center;
+  margin-right: 5px;
+}
+
+.button-one button{
+  border-radius: 0;
+  text-align: center;
+  margin: 0px;
+}
+
+.button-two button {
+  width: 100%;
+  margin-top: 5px;
+  text-align: left;
+}
+
+.todo-grade {
+  text-align: center;
+}
+
+.todo-grade > i {
+  color: red;
+  font-size: 15px;
+  font-weight:bold;
+  text-decoration: none;
+}
+
+.todo-grade a {
+  color: red;
+  margin-right: 3px;
+  font-size: 15px;
+  font-weight:bold;
+  text-decoration: none;
+}
+
+.todo-grade-small {
+  margin-left:20px;
+  font-size: small!important;
+  color: gray;
+}
+.cu-text {
+  margin-left:3px
+} 
+
+.cu-text a {
+  color: red!important;
+  font-size: small;
+  text-decoration: none;
+}
+.cu-text i {
+  margin-right: 5px;
+}
