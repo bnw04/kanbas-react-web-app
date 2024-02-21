@@ -1,0 +1,44 @@
+.wd-kanbas-navigation {
+  background-color: black;
+  list-style: none;
+  padding: 0px;  
+  margin: 0px;
+  width: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8em; 
+  min-height: max(100vh, 100%)!important;
+}
+
+.wd-kanbas-navigation li {
+  padding: 5px;
+  margin-bottom: 5px;         
+  text-align: center;
+}
+
+.neu-icon img {
+  height: 50px;
+}
+
+.wd-kanbas-navigation li.wd-active {
+  background-color: white;
+}
+.wd-kanbas-navigation li.wd-active a {
+  color: red;
+}
+.wd-kanbas-navigation a {
+  color: white;
+  text-decoration: none;
+}
+.wd-kanbas-navigation a svg {
+  color: red;
+  font-size: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  display: block; 
+}
+
+.wd-kanbas-navigation a svg.wd-account-icon {
+  color: gray;
+}

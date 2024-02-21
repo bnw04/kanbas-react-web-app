@@ -1,0 +1,21 @@
+.course-red-bar {
+  text-decoration: none;
+  color: red;
+  font-size: 20px;
+}
+
+.course-red-icon {
+  margin-right: 15px;
+  color: red;
+  font-size: 20px;
+}
+
+.breadcrumbNav {
+  --bs-breadcrumb-divider: ">";
+  font-size: 20px;
+}
+
+.glasses-icon svg {
+  font-size: 15px;
+  margin-right: 10px;
+}

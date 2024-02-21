@@ -1,0 +1,24 @@
+.button-one button {
+  border-radius: 0%;
+  text-align: center;
+  margin: 0px;
+  width: 100%
+}
+
+.button-two button {
+  width: 100%;
+  margin-top: 5px;
+  text-align: left;
+}
+
+.todo-grade {
+  color: red;
+  font-size: 15px;
+  font-weight:bold;
+  text-decoration: none;
+}
+
+.todo-grade-small {
+  font-size: small!important;
+  color: gray;
+}
