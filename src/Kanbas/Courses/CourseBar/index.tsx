@@ -13,7 +13,7 @@ function CourseBar() {
 
   return (
     <div className="mx-3 my-1">
-      <div className="d-none d-md-flex  my-2 align-items-center ">
+      <div className="d-flex my-2 align-items-center ">
         <HiMiniBars3 className="course-red-icon"/>
         <nav className="breadcrumbNav" aria-label="breadcrumb">
           <ol className="breadcrumb mb-0">
