@@ -11,7 +11,7 @@ function Grades() {
   const es = enrollments.filter((enrollment) => enrollment.course === courseId);
   
   return (
-    <div className="mt-4 me-2">
+    <div className="mt-4 me-3">
       <div className="row">
         <div className="col wd-table-name">
           <div className="d-flex justify-content-between">
