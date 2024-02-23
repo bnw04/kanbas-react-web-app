@@ -10,7 +10,7 @@ function TemplateLiterals () {
 
   return(
     <>
-      <h3>Filter function</h3>
+      <h3>Template Literals</h3>
       result1 = {result1}
       <br />
       result2 = {result2}
