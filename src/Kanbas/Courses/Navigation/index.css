@@ -1,3 +1,7 @@
+.wd-course-nav {
+  width: 240px;
+}
+
 .wd-navigation {
     background-color: white;
     list-style: none;
@@ -6,6 +10,7 @@
     margin: 0px;
     margin-left: 20px;
   }
+
   .wd-navigation li {
     padding-left: 5px;
     margin-bottom: 10px;

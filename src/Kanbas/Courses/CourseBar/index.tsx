@@ -4,7 +4,7 @@ import { HiMiniBars3 } from "react-icons/hi2";
 import { PiEyeglassesBold } from "react-icons/pi";
 import "./index.css";
 
-function CourseBar() {
+function CourseBar( { courses}: {courses: any[]; }) {
   const { courseId } = useParams();
   const course = courses.find((c) => c._id === courseId);
   const { pathname } = useLocation();

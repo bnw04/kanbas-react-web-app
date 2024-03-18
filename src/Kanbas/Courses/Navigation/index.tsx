@@ -9,7 +9,7 @@ function CourseNavigation() {
   const course = courses.find((course) => course._id === courseId);
 
   return (
-    <>
+    <div className="d-none d-md-block wd-course-nav">
       <ul className="wd-navigation">
         <li className="wd-overflow">
           {course?.number} {course?.name} {course?.startDate}
@@ -22,7 +22,7 @@ function CourseNavigation() {
           </li>
         ))}
       </ul>
-    </>
+    </div>
   );
 }
 export default CourseNavigation;

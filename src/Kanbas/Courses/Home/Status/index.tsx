@@ -6,6 +6,7 @@ import { FaXmark } from "react-icons/fa6";
 import { useParams } from "react-router-dom";
 import { assignments } from "../../../Database";
 import "./index.css";
+import formatDate from "../../Assignments/dateFormat";
 
 function Status() {
 
@@ -55,7 +56,7 @@ function Status() {
         <PiNumberCircleFiveFill className="text-danger fs-4 me-2"/>
         <p className="todo-grade">
           Grade {item.title} <br/>
-          <span className="todo-grade-small m-0"> {item.points} points • {item.due} at 11:59pm</span>
+          <span className="todo-grade-small m-0"> {item.points} points • {formatDate(item.dueDate)} at 11:59pm</span>
         </p>
         <div className="ms-auto">
           <FaXmark />

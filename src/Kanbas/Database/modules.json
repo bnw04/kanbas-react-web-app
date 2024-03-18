@@ -2,7 +2,7 @@
   {
     "_id": "M001",
     "name": "Resources",
-    "description": "Introduction to the resouces",
+    "description": "Introduction to the resources",
     "course": "CS101",
     "lessons": [
       {
