@@ -1,8 +1,10 @@
 function formatDate(dateStr: string) {
-  // Create a date object assuming dateStr is in UTC
-  const date = new Date(dateStr + 'T00:00:00Z');
+  const date = new Date(dateStr);
+  const userTimezoneOffset = date.getTimezoneOffset() * 60000;
+  const adjustedDate = new Date(date.getTime() + userTimezoneOffset);
+
   const options: Intl.DateTimeFormatOptions = { month: 'short', day: '2-digit' };
-  const formattedDate = date.toLocaleDateString('en-US', options);
+  const formattedDate = adjustedDate.toLocaleDateString('en-US', options);
   
   return formattedDate.replace(',', '');
 }
